@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UserServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="CONTEXT_PATH" value="/api/cataloging/usermanagement" />
+      <env name="PORT" value="8446" />
+      <env name="LOG_LEVEL" value="DEBUG" />
+      <env name="MONGO_DB" value="BD_CAT_USERS" />
+      <env name="MONGO_URL" value="mongodb://localhost:27017/" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.cataloging.user.service.UserServiceApplication" />
+    <module name="user-service" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

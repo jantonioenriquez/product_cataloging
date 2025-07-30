@@ -1,0 +1,28 @@
+server:
+  port: ${PORT}
+  servlet:
+    contextPath: ${CONTEXT_PATH}
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_URL}
+      database: ${MONGO_DB}
+      auto-index-creation: true
+      core:
+        MongoTemplate: ${LOG_LEVEL}
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+
+service:
+  topic:
+    post:
+      users:
+        user: users_post_users.user
+    put:
+      users:
+        user: users_put_users.user
+    delete:
+      users:
+        user: users_delete_users.user

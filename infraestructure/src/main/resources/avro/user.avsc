@@ -1,0 +1,37 @@
+{
+  "namespace": "com.cataloging.pubsub.user.avro.model",
+  "type": "record",
+  "name": "UserAvroModel",
+  "fields": [
+    {
+      "name": "id",
+      "type": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "name",
+      "type": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "auth0Id",
+      "type": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "email",
+      "type": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "status",
+      "type": {
+        "type": "string"
+      }
+    }
+  ]
+}
