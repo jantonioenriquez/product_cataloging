@@ -1,0 +1,16 @@
+server:
+  port: ${PORT}
+  servlet:
+    contextPath: ${CONTEXT_PATH}
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_URL}
+      database: ${MONGO_DB}
+      auto-index-creation: true
+      core:
+        MongoTemplate: ${LOG_LEVEL}
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
